@@ -1,0 +1,150 @@
+/* BUTTONS */
+
+.button {
+    background-color: #fff;
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+    color: #1c1c1c;
+    cursor: pointer;
+    font-size: .8rem;
+    padding: .4rem 1.2rem;
+    transition: .3s ease;
+}
+
+.button:hover {
+    border-color: #8c8c8c;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.14);
+}
+
+.button.button-small {
+  padding: .3rem .9rem;
+}
+
+.button.button-normal {
+    padding: .4rem 1.2rem;
+
+}
+
+.button.button-medium {
+    padding: .5rem 1.5rem;
+}
+
+.button.button-large {
+      padding: .6rem 1.8rem;
+
+}
+
+.button.button-primary {
+    background-color: #00d19e;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-primary:hover {
+    background-color: #00e0a9;
+    border-color: transparent;
+    color: #fff;
+}
+
+
+.button.button-link {
+    background-color: #3664e2;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-link:hover {
+    background-color: #3664e2;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-info {
+    background-color: #3bb2fc;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-info:hover {
+    background-color: #7dccfd;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-success {
+    background-color: #23d160;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-success:hover {
+    background-color: #68e594;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-warning {
+    background-color: #f6bf41;
+    border-color: transparent;
+    color: #545454;
+}
+
+.button.button-warning:hover {
+    background-color: #f8cd6c;
+    border-color: transparent;
+    color: #545454;
+}
+
+.button.button-danger {
+    background-color: #ff3860;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-danger:hover {
+    background-color: #ff7b95;
+    border-color: transparent;
+    color: #fff;
+}
+
+.button.button-primary.button-outlined {
+    background-color: transparent;
+    border: 1px solid #00d19e;
+    color: #00d19e;
+}
+
+.button.button-link.button-outlined {
+    background-color: transparent;
+    border: 1px solid #3664e2;
+    color: #3664e2;
+}
+
+.button.button-info.button-outlined {
+    background-color: transparent;
+    border: 1px solid #3bb2fc;
+    color: #3bb2fc;
+}
+
+.button.button-success.button-outlined {
+    background-color: transparent;
+    border: 1px solid #23d160;
+    color: #23d160;
+}
+
+.button.button-warning.button-outlined {
+    background-color: transparent;
+    border: 1px solid #f6bf41;
+    color: #f6bf41;
+}
+
+.button.button-danger.button-outlined {
+    background-color: transparent;
+    border: 1px solid #ff3860;
+    color: #ff3860;
+}
+
+.button.button-rounded {
+    border-radius: 1000px;
+}

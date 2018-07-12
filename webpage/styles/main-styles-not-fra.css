@@ -1,0 +1,55 @@
+/* line 13, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+body {
+  font-family: sans;
+  font-size: 14px;
+  line-height: 1.68em; }
+
+/* line 17, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+h1, h2 {
+  font-weight: 100; }
+
+/* line 19, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+.hello-header {
+  background: #7438d6;
+  background: -webkit-linear-gradient(legacy-direction(44deg), #7438d6, #01ca91);
+  background: linear-gradient(44deg, #7438d6, #01ca91);
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 2rem; }
+
+/* line 24, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+.menu {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 20px 0 rgba(36, 34, 34, 0.1);
+  position: fixed;
+  background: #fff; }
+  /* line 30, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+  .menu .hamburger-button {
+    width: 20px;
+    height: 20px; }
+
+/* line 33, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+.navigation-bar {
+  background-color: #f7f7f7;
+  color: #01ca91;
+  border: black; }
+  /* line 37, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+  .navigation-bar a {
+    color: #01ca91 !important;
+    text-decoration: none; }
+
+/* line 42, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+.button-group {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box; }
+  /* line 50, /home/hvl/Music/Imple-framework/webpage/styles/main-styles-not-fra.sass */
+  .button-group button {
+    margin: 10px; }
+
+/*# sourceMappingURL=main-styles-not-fra.css.map */

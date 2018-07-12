@@ -1,0 +1,31 @@
+{
+    "path": {
+        "src/i-paddings.sass": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../dist/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "nested"
+            }
+        },
+        "src/text-effects.sass": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../dist/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "nested"
+            }
+        },
+        "webpage/styles/main-styles-not-fram.sass": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "nested"
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+$primary-col: #7438d6
+$secondary-col: #01ca91
+$third-col: #f7f7f7
+$link-col: $secondary-col
+$nav-color: #fff
+$hero-text-col: #fff
+
+@mixin linear-gradient($direction, $color-stops...)
+  background: nth(nth($color-stops, 1), 1)
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops)
+  background: linear-gradient($direction, $color-stops)
+
+body
+  font-family: sans
+  font-size: 14px
+  line-height: 1.68em
+h1, h2
+  font-weight: 100
+.hello-header 
+  @include linear-gradient(44deg, $primary-col, $secondary-col)
+  color: $hero-text-col
+  padding-top: 5rem
+  padding-bottom: 2rem
+.menu
+  width: 100%
+  padding: 10px
+  box-shadow: 1px 1px 20px 0 rgba( 36, 34, 34, 0.1 )
+  position: fixed
+  background: $nav-color
+  .hamburger-button
+    width: 20px
+    height: 20px
+.navigation-bar
+  background-color: $third-col
+  color: $secondary-col
+  border: black
+  a
+    color: $link-col !important
+    text-decoration: none
+    
+    
+.button-group 
+  display: flex
+  align-content: center
+  justify-content: center
+  width: 100%
+  max-width: 100%
+  flex-wrap: wrap
+  box-sizing: border-box
+  button
+    margin: 10px
